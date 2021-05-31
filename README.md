@@ -8,12 +8,11 @@
   + 테스트 : 1일
 - 특징 및 기능  
   + 7가지 차트형태 제공
-  + UI 및 Graph 기능 개발  
-  + 제스쳐 액션
-  + react-native-svg
+  + UI 및 Graph 개발    
   + react-native-reanimatedv2
-  + simplestatistics (추세분석)
-  + D3.js (데이터 범위 보간용)
+  + react-native-svg  
+  + simplestatistics (추세 계산)
+  + D3.js (데이터 범위 보간 처리)
   + 타입스크립트
   
 - Project Common Dependencies
