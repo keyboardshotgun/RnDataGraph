@@ -97,38 +97,13 @@ const carReducer = (state: initProps = initState, action: CounterAction) =>
       case actionTypes.COUNT_RESET:
         draft.counter = 0;
         break;
-      // case actionTypes.LOAD_CAR_DATA:
-      //   draft.carDataLoad = true;
-      //   draft.carDataLoadError = null;
-      //   draft.carDataLoadDone = false;
-      //   break;
-      // case actionTypes.LOAD_ERROR_CAR_DATA:
-      //   draft.carDataLoad = false;
-      //   draft.carDataLoadError = true;
-      //   draft.carDataLoadDone = false;
-      //   break;
-      // case actionTypes.LOAD_DONE_CAR_DATA:
-      //   draft.carDataLoad = false;
-      //   draft.carDataLoadError = false;
-      //   draft.carDataLoadDone = true;
-      //   break;
-       case actionTypes.SET_CAR_DATA:
+      case actionTypes.SET_CAR_DATA:
          draft.carData.selected = {
            car_name: action.data.car_name,
            size: action.data.size,
            price: action.data.price,
          };
-         break;
-      // case actionTypes.DELETE_CAR_DATA:
-      //   draft.carData.selected = {
-      //     car_name: '',
-      //     size: '',
-      //     price: '',
-      //   };
-      //   break;
-      // case actionTypes.RESET_DATA:
-      //   return initState;
-      //   break;
+        break;
       default:
         break;
     }
