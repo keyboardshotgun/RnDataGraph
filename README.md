@@ -6,15 +6,15 @@
   + 기본세팅 및 프로젝트 구조, 라이브러리 설치 : 1일
   + 코드작성 : 7일
   + 테스트 : 1일
-- 특징 및 기능
-  + UI 및 라이브러리 개발
+- 특징 및 기능  
   + 7가지 차트형태 제공
-  + 타입스크립트
-  + 제스쳐 네비게이션
+  + UI 및 Graph 기능 개발  
+  + 제스쳐 액션
   + react-native-svg
   + react-native-reanimatedv2
   + simplestatistics (추세분석)
   + D3.js (데이터 범위 보간용)
+  + 타입스크립트
   
 - Project Common Dependencies
 
