@@ -12,6 +12,8 @@
   + 제스쳐 네비게이션
   + react-native-svg
   + react-native-reanimatedv2
+  + simplestatistics (추세분석)
+  + D3.js (데이터 범위 보간용)
   
 - Project Common Dependencies
 
@@ -20,10 +22,13 @@
 [![Navigation](https://img.shields.io/badge/React--Navigation-v5-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://github.com/react-navigation/react-navigation)
   [![Reanimated](https://img.shields.io/badge/React--native--reanimated-v2.0.0--rc.0-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://docs.swmansion.com/react-native-reanimated/)
 [![Redash](https://img.shields.io/badge/React--native--redash-v16.0.8-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://github.com/wcandillon/react-native-redash)
-[![React-native-svg](https://img.shields.io/badge/React--native--svg-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://github.com/react-native-svg/react-native-svg)
+[![React-native-svg](https://img.shields.io/badge/React--native--svg-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://github.com/react-native-svg/react-native-svg)[![simplestatistics](https://img.shields.io/badge/simplestatistics-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://simplestatistics.org/)[![D3.js](https://img.shields.io/badge/D3.js-white?style=flat&labelColor=blue&logoColor=black&logo=react)](https://d3js.org/)
+
 </br></br></br>
 ***
 - 캔들차트
+- 기간별 차트 제공
+- 터치액션으로 실시간 차트정보 제공
 
 ![candle_chart](https://user-images.githubusercontent.com/25360777/120130585-83fbb880-c201-11eb-90d3-ce037b788c20.gif)
 ***
@@ -32,6 +37,8 @@
 ![charts_01_radar_chart](https://user-images.githubusercontent.com/25360777/120130595-865e1280-c201-11eb-8dfb-33a6e52e0c35.gif)
 ***
 - 추세선 차트
+- scatter plot + 추세선 정보제공
+- simplestatistics - Linear Regression
 
 ![charts_02_scatter_plot](https://user-images.githubusercontent.com/25360777/120130598-8827d600-c201-11eb-88c0-37b774e125c1.gif)
 ***
